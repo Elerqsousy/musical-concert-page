@@ -7,8 +7,14 @@
     <title>The Musical Concert of the year - 2022</title>
     <link rel="stylesheet" href="global.css" />
     <link rel="stylesheet" href="main.css" />
-    <link rel="stylesheet" href="./src/fonts/webfontkit-20220202-113821/stylesheet.css">
-    <link rel="stylesheet" href="./src/fonts/webfontkit-20220202-113436/stylesheet.css">
+    <!-- <link rel="stylesheet" href="./src/fonts/webfontkit-20220202-113821/stylesheet.css">
+    <link rel="stylesheet" href="./src/fonts/webfontkit-20220202-113436/stylesheet.css"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="https://use.fontawesome.com/322784cd47.css" />
     <link
       rel="stylesheet"
@@ -16,98 +22,120 @@
     />
   </head>
   <body>
-    <header class="main-section">
-      <nav class="nav-desktop">
-        <img src="src/imgs/logo-icon.png" alt="logo" />
-      </nav>
-      <nav class="nav-mobile">
-        <button class="ham">
+    <header class="section main-section">
+      <nav class="nav">
+        <ul class="top-nav">
+          <li class="message-nav">
+            <a href="#"><i class="fa fa-facebook-f light-theme  message-nav-item"></i></a>
+            <a href="#"></a><i class="fa fa-twitter light-theme  message-nav-item"></i></a>
+            <a href="#" class="para-4 light-theme message-nav-item">English</a>
+            <a href="#" class="para-4 light-theme message-nav-item">My Pgae</a>
+            <a href="#" class="para-4 light-theme message-nav-item">Logout</a>
+          </li>
+          <li class="main-nav">
+        <img class="nav-desktop" src="src/imgs/logo-icon.png" alt="logo" />
+        <button class="ham nav-mobile">
           <img class="menu-ham" src="src/imgs/ham.png" alt="menu" />
         </button>
+        <ul class="nav-menu-items display-none">
+          <li class="nav-menu-item "><button class="dt-display-none"><i class="close-icon main-theme fa fa-times " aria-hidden="true"></i></button></li>
+          <li class="nav-menu-item"><a href="#" class="para-4 dark-theme dt-display-none">Home</a></li>
+          <li class="nav-menu-item"><a href="#" class="para-4 dark-theme">About</a></li>
+          <li class="nav-menu-item"><a href="#" class="para-4 dark-theme">Program</a></li>
+          <li class="nav-menu-item"><a href="#" class="para-4 dark-theme">Join</a></li>
+          <li class="nav-menu-item"><a href="#" class="para-4 dark-theme">Sponsor</a></li>
+          <li class="nav-menu-item"><a href="#" class="para-4 dark-theme">News</a></li>
+          <li class="nav-menu-item"><button class="button-2 para-4 main-theme">CC Campaign</button></li>
+
+          </ul>
+        </li>
+      </ul>
       </nav>
-      <p class="sub-heading">"Hello! Music lovers"</p>
-        <h1 class="heading-1 transparent">
-          the musical <br> event of the year <br> 2022
-        </h1>
-    </header>
-    <!-- <main>
-      <section class="section intro-section" id="intro">
-        
-        <p class="box-border box-border-white para-2 dark-theme">
+      <p class="sub-heading main-theme trans">"Hello! Music lovers"</p>
+      <h1 class="heading-1 transparent">
+        the musical <br />
+        event of the year <br />
+        2022
+      </h1>
+      <div class="box-border trans">
+        <p class="box-border-white para-2 dark-theme">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
           ut, voluptate et velit neque sed, quaerat sit omnis inventore veniam
           mollitia libero deleniti cumque.
         </p>
-        <p class="para-0 dark-theme">2022.3.29(TUE) ~ 31(THU)</p>
-        <p class="para-1 dark-theme">
-          @ National Museum of Korea, Art Center Nabi and more
-        </p>
-      </section>
-
-
+      </div>
+      <p class="para-0 dark-theme trans">2022.3.29(TUE) ~ 31(THU)</p>
+      <p class="para-1 dark-theme trans padding-bottom">
+        @ National Museum of Korea, Art Center Nabi and more
+      </p>
+    </header>
+    <main>
       <section class="section program-details" id="programs">
-        <h1 class="heading-2 light-theme">Main Program</h1>
-        <ul class="card-container">
-          <li class="card card-1">
-            <div class="icon icon-1"></div>
-            <h3 class="heading-3 main-theme">3-Day Program</h3>
-            <p class="para-2 light-theme">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni,
-              soluta.
-            </p>
-          </li>
-          <li class="card card-2">
-            <div class="icon icon-2"></div>
-            <h3 class="heading-3">Main Stage</h3>
-            <p class="para-2 light-theme">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Molestias rerum laborum perspiciatis laudantium.
-            </p>
-          </li>
-          <li class="card card-3">
-            <div class="icon icon-3"></div>
-            <h3 class="heading-3">Exclusive Access</h3>
-            <p class="para-2 light-theme">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Voluptatum nostrum possimus molestiae.
-            </p>
-          </li>
-          <li class="card card-4">
-            <div class="icon icon-4"></div>
-            <h3 class="heading-3">All-Day Suchi</h3>
-            <p class="para-2 light-theme">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga,
-              doloribus quasi.
-            </p>
-          </li>
-          <li class="card card-5">
-            <div class="icon icon-5"></div>
-            <h3 class="heading-3">Free Drinks</h3>
-            <p class="para-2 light-theme">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
-              corrupti perspiciatis ipsum ab?
-            </p>
-          </li>
-          <li class="card card-6">
-            <div class="icon icon-6"></div>
-            <h3 class="heading-3">Free Wifi</h3>
-            <p class="para-2 light-theme">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis
-              placeat quisquam et?
-            </p>
-          </li>
-        </ul>
-        <button class="button button-0 main-theme">
-          Reserve a spot in the MUSICAL 2022
-        </button>
+        <article class="background-pattern">
+          <h2 class="heading-2 light-theme">Main Program</h2>
+          <ul class="card-container ">
+            <li class="card card-1 hover-frame">
+              <div class="icon icon-1"></div>
+              <h3 class="heading-3 width main-theme">3-Day Event</h3>
+              <p class="para-2 light-theme para-conditional">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni,
+                soluta.
+              </p>
+            </li>
+            <li class="card card-2 hover-frame">
+              <div class="icon icon-2"></div>
+              <h3 class="heading-3 width main-theme">Main Stage</h3>
+              <p class="para-2 light-theme para-conditional">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Molestias rerum laborum perspiciatis laudantium.
+              </p>
+            </li>
+            <li class="card card-3 hover-frame">
+              <div class="icon icon-3"></div>
+              <h3 class="heading-3 width main-theme">Exclusive Access</h3>
+              <p class="para-2 light-theme para-conditional">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Voluptatum nostrum possimus molestiae.
+              </p>
+            </li>
+            <li class="card card-4 hover-frame">
+              <div class="icon icon-4"></div>
+              <h3 class="heading-3 width main-theme">All-Day Suchi</h3>
+              <p class="para-2 light-theme para-conditional">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga,
+                doloribus quasi.
+              </p>
+            </li>
+            <li class="card card-5 hover-frame">
+              <div class="icon icon-5"></div>
+              <h3 class="heading-3 width main-theme">Free Drinks</h3>
+              <p class="para-2 light-theme para-conditional">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+                corrupti perspiciatis ipsum ab?
+              </p>
+            </li>
+            <li class="card card-6 hover-frame">
+              <div class="icon icon-6"></div>
+              <h3 class="heading-3 width main-theme">Free Wifi</h3>
+              <p class="para-2 light-theme para-conditional">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis
+                placeat quisquam et?
+              </p>
+            </li>
+            <li>
+              <button class="button button-0 main-theme para-1 light-theme">
+                Reserve a spot in the MUSICAL 2022
+              </button>
+            </li>
+          </ul>
+        </article>
       </section>
 
-
-      <section class="section cards-2" id="artists">
-        <h1 class="heading-2 dark-theme">Featured Stars</h1>
+      <section class="section artists-section" id="artists">
+        <h2 class="heading-2 dark-theme">Featured Stars</h2>
         <ul class="cards-2-container">
           <li class="card-2 card-2-1">
-            <ul class="card-2-container">
+            <ul class="card-2-small-container">
               <li class="card-2-img-container">
                 <img
                   src="./src/imgs/billie-eilish.jpg"
@@ -130,7 +158,7 @@
             </ul>
           </li>
           <li class="card-2 card-2-1">
-            <ul class="card-2-container">
+            <ul class="card-2-small-container">
               <li class="card-2-img-container">
                 <img src="./src/imgs/lorde.webp" alt="Lorde" class="star-img" />
               </li>
@@ -147,28 +175,7 @@
             </ul>
           </li>
           <li class="card-2 card-2-1">
-            <ul class="card-2-container">
-              <li class="card-2-img-container">
-                <img
-                  src="./src/imgs/beyonce.jpg"
-                  alt="Beyonce"
-                  class="star-img"
-                />
-              </li>
-              <li class="card-2-intro-container">
-                <h3 class="card-2-heading heading-3 dark-theme">Beyonce</h3>
-                <p class="card-2-sub-heading para-2 main-theme">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                </p>
-                <p class="card-2-info para-3 dark-theme">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Quidem, odit possimus.
-                </p>
-              </li>
-            </ul>
-          </li>
-          <li class="card-2 card-2-1">
-            <ul class="card-2-container">
+            <ul class="card-2-small-container">
               <li class="card-2-img-container">
                 <img
                   src="./src/imgs/bruno-mars.jpg"
@@ -189,7 +196,7 @@
             </ul>
           </li>
           <li class="card-2 card-2-1">
-            <ul class="card-2-container">
+            <ul class="card-2-small-container">
               <li class="card-2-img-container">
                 <img
                   src="./src/imgs/ed-sheeran.jpg"
@@ -210,7 +217,7 @@
             </ul>
           </li>
           <li class="card-2 card-2-1">
-            <ul class="card-2-container">
+            <ul class="card-2-small-container">
               <li class="card-2-img-container">
                 <img src="./src/imgs/sia.png" alt="Sia" class="star-img" />
               </li>
@@ -229,7 +236,6 @@
         </ul>
       </section>
 
-
       <footer class="footer">
         <ul class="footer-split light-theme">
           <li class="footer-logo">
@@ -240,11 +246,11 @@
               2022 the MUSICAL Event. <br />
               Some Rights Reserved.
             </p>
-            <a href="#" class="credits">Credits</a>
+            <button href="#" class="credits main-theme heading-3">Credits</button>
           </li>
         </ul>
       </footer>
-    </main> -->
+    </main>
     <script src="./js/main.js"></script>
   </body>
 </html>
