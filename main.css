@@ -50,9 +50,9 @@
     z-index: 80;
   }
 
-  .nav-menu-item {
+  /* .nav-menu-item {
 
-  }
+  } */
 
   .para-4 {
     font-family: "Lato";
@@ -64,8 +64,8 @@
     font-size: 9vw !important;
     position: fixed;
     top: 6px;
-    left: 18px;
-    /* margin: 6px 0 0 6px;  } */
+    left: 18px;  
+  } 
 
 }
 
