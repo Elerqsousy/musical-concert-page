@@ -103,10 +103,12 @@ ul {
   list-style: none;
 }
 
-a, i {
+a,
+i {
   text-decoration: none;
 }
 
-a:hover, i:hover {
-  color: #EC5242;
+a:hover,
+i:hover {
+  color: #ec5242;
 }
