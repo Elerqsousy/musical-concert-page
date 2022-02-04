@@ -102,3 +102,11 @@ button {
 ul {
   list-style: none;
 }
+
+a, i {
+  text-decoration: none;
+}
+
+a:hover, i:hover {
+  color: #EC5242;
+}
