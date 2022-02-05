@@ -54,7 +54,7 @@
   }
 
   .para-4 {
-    font-family: "Lato";
+    font-family: "Lato", Arial, Helvetica, sans-serif;
     font-size: 5vw;
     line-height: 12vw;
   }
@@ -141,7 +141,7 @@
   }
 
   .para-4 {
-    font-family: "Lato";
+    font-family: "Lato", Arial, Helvetica, sans-serif;
     font-size: 11px;
   }
 
@@ -188,7 +188,7 @@
 
 .partner-img {
   width: 70px;
-  height: fit-content;
+  height: auto;
   margin: 0 10px;
 }
 
@@ -215,7 +215,7 @@
 }
 
 .sub-heading {
-  font-family: "Montserrat";
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
   font-weight: 500;
 }
 
@@ -228,7 +228,7 @@
 }
 
 .heading-1 {
-  font-family: "Montserrat";
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
   font-weight: 800;
 }
 
@@ -245,22 +245,22 @@
 }
 
 .para-0 {
-  font-family: "Montserrat";
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
 }
 
 .para-1 {
-  font-family: "Lato";
+  font-family: "Lato", Arial, Helvetica, sans-serif;
   font-weight: 500;
 }
 
 .para-2 {
-  font-family: "Lato";
+  font-family: "Lato", Arial, Helvetica, sans-serif;
   font-size: 10px;
   font-weight: 400;
 }
 
 .heading-2 {
-  font-family: "Montserrat";
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
   background: url("./src/imgs/underline-orange.png");
   background-position: center bottom;
   background-repeat: no-repeat;
@@ -274,7 +274,7 @@
 }
 
 .heading-3 {
-  font-family: "Montserrat";
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
   font-weight: 700;
   font-size: 12.5px;
 }
@@ -409,7 +409,7 @@
 }
 
 .program-details-link {
-  font-family: "Lato";
+  font-family: "Lato", Arial, Helvetica, sans-serif;
   font-size: 14px;
   text-decoration: underline;
   margin: 50px 0 20px;
@@ -446,13 +446,12 @@
   }
 }
 
-.card-2-img-container {
-  width: 110px;
-  height: 110px;
-}
-
 .star-img {
   width: 90%;
+  height: auto;
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
 .artists-section {
@@ -469,7 +468,7 @@
 }
 
 .para-3 {
-  font-family: "Lato";
+  font-family: "Lato", Arial, Helvetica, sans-serif;
   font-size: 9px;
   font-weight: 600;
 }
@@ -486,13 +485,8 @@
   background-position: top left;
   background-repeat: no-repeat;
   position: relative;
-}
-
-.star-img {
-  height: auto;
-  position: absolute;
-  bottom: 0;
-  right: 0;
+  width: 110px;
+  height: 110px;
 }
 
 .card-2-intro-container {
