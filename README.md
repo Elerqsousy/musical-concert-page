@@ -23,6 +23,9 @@ This is a simple static website made with HTML5, CSS3 and JavaScript. There is n
 
 Check the [Live Demo](https://elerqsousy.github.io/musical-concert-page/) deployed on github pages.
 
+## Video Demo
+
+Check this [Video](https://www.loom.com/share/8edb4922721b4152b97238a2bf260d1c) for demo presentation of the page.
 ## Authors
 
 👤 **Mahmoud Rizk**
