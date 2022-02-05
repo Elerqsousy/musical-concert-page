@@ -47,7 +47,16 @@
   }
 
   .footer-split {
-    color: #272a31;
+    color: #e1e1e1;
+  }
+
+  .footer-dark {
+    background-color: #272a31;
+    opacity: 0.9;
+  }
+
+  .display-none {
+    display: none;
   }
 }
 
@@ -83,12 +92,11 @@
   }
 
   .footer-dark {
-    background-color: #272a31;
-    opacity: 0.9;
+    background-color: #fff;
   }
 
   .footer-split {
-    color: white;
+    color: #272a31;
   }
 
   .dt-display-none {
