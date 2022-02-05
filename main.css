@@ -1,14 +1,12 @@
 /* heading */
 
-@media only screen and (max-width: 768px) {  
+@media only screen and (max-width: 768px) {
   .nav-desktop,
   .message-nav {
     display: none;
   }
 
-  .mobile-display-none {
-    display: none;
-  }
+
 
   .ham {
     width: 9vw;
@@ -31,7 +29,7 @@
   }
 
   .heading-1 {
-    font-size: 7.4vw;
+    font-size: 7vw;
     line-height: 7vw;
 
     padding: 0vw 4vw 4vw 4vw;
@@ -86,21 +84,19 @@
     font-weight: 700;
   }
 
-  .padding-bottom {
-    padding-bottom: 16vw;
-  }
-
   .para-1 {
     font-size: 3.4vw;
     line-height: 3.5vw;
     padding: 0 5vw 4vw 5vw;
   }
+
+  .padding-bottom {
+    padding-bottom: 16vw;
+  }
 }
 
 @media only screen and (min-width: 768px) {
-  .dt-display-none {
-    display: none;
-  }
+
   .message-nav {
     background: #30333a;
     display: flex;
@@ -179,6 +175,27 @@
   }
 }
 
+.partner-section {
+  background-color: #272A31;
+  opacity: .90;
+  padding: 20px 0;
+}
+
+.partner-group-imgs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.partner-img {
+  width: 70px;
+  height:fit-content;
+  margin: 0 10px;
+}
+
 .button-2 {
   border: 3px solid #ec5242;
   font-weight: 700;
@@ -220,7 +237,7 @@
 }
 
 .dark-theme {
-  color: #404044;
+  color: #575757;
 }
 
 .main-theme {
@@ -242,8 +259,8 @@
 
 .para-2 {
   font-family: "Lato";
-  font-size: 11px;
-  font-weight: 500;
+  font-size: 10px;
+  font-weight: 400;
 }
 
 .heading-2 {
@@ -251,19 +268,20 @@
   background: url("./src/imgs/underline-orange.png");
   background-position: center bottom;
   background-repeat: no-repeat;
+  background-size: 25px;
   text-align: center;
-  line-height: 30px;
-  font-size: 23px;
+  line-height: 20px;
+  font-size: 18px;
   font-weight: 500;
-  padding: 20px 0;
-  margin-bottom: 50px;
-  background-size: 60px;
+  padding: 15px 0;
+  margin-bottom: 15px;
+
 }
 
 .heading-3 {
   font-family: "Montserrat";
   font-weight: 700;
-  font-size: 15px;
+  font-size: 12.5px;
 }
 
 .box-border-white {
@@ -408,7 +426,7 @@
     margin: 4vw;
   }
 
-  .card-2{
+  .card-2 {
     width: 100%;
   }
 }
@@ -427,7 +445,7 @@
     margin: 4vw 13vw;
   }
 
-  .card-2{
+  .card-2 {
     width: 50%;
   }
 }
@@ -501,16 +519,18 @@
   .footer-split {
     margin: 0 4vw;
     justify-content: space-between;
+
+      color: #272A31;
+  
   }
 
-  .footer {
-    margin: 0 13vw;
-    padding: 20px 0;
-  }
+
 
   .footer-logo {
     margin-right: 20px;
   }
+
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -522,14 +542,15 @@
     width: 40%;
   }
 
-  .footer {
-    margin: 0 13vw;
-    padding: 20px 0;
-  }
+  .footer-split {
+    color: #272A31;
+}
 }
 
 .footer {
   background: #ffffff;
+  padding: 20px 13vw;
+
 }
 
 .footer-split {
@@ -545,18 +566,19 @@
 .show-more {
   width: 90vw;
   text-align: center;
-border: 2px solid #D3D3D3;
-border-radius: 5px;
-padding: 20px 0 ;
-margin-top: 50px;
+  border: 2px solid #d3d3d3;
+  border-radius: 5px;
+  padding: 20px 0;
+  margin-top: 50px;
 }
 
-.show-more:hover, .show-more:active{
+.show-more:hover,
+.show-more:active {
   box-shadow: 15px 15px 10px -18px #ff1900;
 }
 
 .show-more:active {
-  background: #D3D3D3;
+  background: #d3d3d3;
 }
 
 .button-0:hover {
@@ -564,13 +586,22 @@ margin-top: 50px;
   box-shadow: 15px 15px 10px -15px #ff1900;
 }
 
-.fa-angle-up, .fa-angle-down {
+.fa-angle-up,
+.fa-angle-down {
   color: #ec5242;
 }
-
 
 @media only screen and (max-width: 768px) {
   .display-none {
     display: none;
-  }}
+  }
 
+
+}
+
+@media only screen and (min-width: 768px) {
+
+.dt-display-none {
+  display: none;
+}
+}
