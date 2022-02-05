@@ -29,8 +29,7 @@
   .heading-1 {
     font-size: 7vw;
     line-height: 7vw;
-
-    padding: 0vw 4vw 4vw 4vw;
+    padding: 0 4vw 4vw 4vw;
   }
 
   .nav-menu-items {
@@ -242,7 +241,7 @@
 }
 
 .light-theme {
-  color: #ffffff;
+  color: #fff;
 }
 
 .para-0 {
@@ -316,6 +315,7 @@
     margin: 1vw 0;
     width: 100%;
   }
+
   .para-conditional {
     width: 60%;
     text-align: left;
@@ -515,7 +515,6 @@
   .footer-split {
     margin: 0 4vw;
     justify-content: space-between;
-
     color: #272a31;
   }
 
@@ -539,13 +538,12 @@
 }
 
 .footer {
-  background: #ffffff;
+  background: #fff;
   padding: 20px 13vw;
 }
 
 .footer-split {
   display: flex;
-
   align-items: center;
 }
 

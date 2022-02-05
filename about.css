@@ -16,7 +16,7 @@
 }
 
 .sub-heading-about {
-  font-family: "Montserrat";
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
   font-weight: 500;
 }
 
@@ -86,6 +86,7 @@
     background-color: #272a31;
     opacity: 0.9;
   }
+
   .footer-split {
     color: white;
   }

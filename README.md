@@ -4,20 +4,24 @@
 
 > Sample Design of Imaginaty the MUSICAL Event 2022 
 
-![screenshot](./src/imgs/ss-dt-home.png) ![screenshot](./src/imgs/ss-dt-about.png)
-![screenshot](./src/imgs/ss-mobile-home.png) ![screenshot](./src/imgs/ss-mobile-about.png)
+## Screensot
 
-Additional description about the project and its features.
+![screenshot](./src/imgs/ss-dt-home.png) 
+![screenshot](./src/imgs/ss-mobile-home.png) 
+![screenshot](./src/imgs/ss-dt-about.png)
+![screenshot](./src/imgs/ss-mobile-about.png)
 
 ## Built With
 
 - HTML
 - CSS
 - JS
+## Getting Started
 
+This is a simple static website made with HTML5, CSS3 and JavaScript. There is not specific requirements for building the project.
 ## Live Demo
 
-[Live Demo Link](https://elerqsousy.github.io/musical-concert-page/)
+Check the [Live Demo](https://elerqsousy.github.io/musical-concert-page/) deployed on github pages.
 
 ## Authors
 
