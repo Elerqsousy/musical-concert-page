@@ -1,0 +1,176 @@
+.section-about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 6vw 5vw;
+}
+
+.intro-section {
+  background: #f7f7f7;
+}
+
+.heading-1-about {
+  text-transform: uppercase;
+}
+
+.sub-heading-about {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 768px) {
+  .heading-1-about {
+    margin-bottom: 6vw;
+  }
+
+  .main-nav {
+    background: #f7f7f7;
+  }
+
+  .nav {
+    background: rgb(255, 255, 255, 0.9);
+  }
+
+  .border-dark {
+    width: 300px;
+  }
+
+  .sub-heading-about {
+    padding: 2vw 4vw;
+    font-size: 4vw;
+  }
+
+  .box-border-dark {
+    margin-bottom: 15px;
+  }
+
+  .footer-split {
+    color: #e1e1e1;
+  }
+
+  .footer-dark {
+    background-color: #272a31;
+    opacity: 0.9;
+  }
+
+  .display-none {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .heading-1-about {
+    margin: 60px 0 30px 0;
+  }
+
+  .section-about {
+    padding: 0 2vw;
+  }
+
+  .box-border-dark {
+    margin: 0 17vw 40px 17vw;
+  }
+
+  .para-1,
+  .para-0 {
+    padding: 0;
+  }
+
+  .email {
+    margin-bottom: 40px;
+  }
+
+  .logo-section,
+  .photos-section {
+    padding: 40px;
+  }
+
+  .border-dark {
+    width: 300px;
+  }
+
+  .footer-dark {
+    background-color: #fff;
+  }
+
+  .footer-split {
+    color: #272a31;
+  }
+
+  .dt-display-none {
+    display: none;
+  }
+
+  .width-limited {
+    width: 500px;
+  }
+}
+
+.box-border-dark {
+  padding: 10px 14px;
+  background: #fff;
+}
+
+.border-dark {
+  border: 1px solid #d3d3d3;
+  margin-top: 5vw;
+}
+
+.logo-img {
+  width: 60%;
+  margin: 5px;
+}
+
+.para-2 {
+  line-height: 17px;
+}
+
+.email {
+  text-decoration: underline;
+}
+
+.logo-section {
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.img-group {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 18px 0;
+}
+
+.img-1 {
+  background: url("src/imgs/2020.jpg");
+}
+
+.img-2 {
+  background: url("src/imgs/2018.jpg");
+}
+
+.img {
+  background-repeat: no-repeat;
+  width: 280px;
+  height: 150px;
+  margin: 1vw;
+  background-size: cover;
+}
+
+.img-sub {
+  background: #ec5242;
+  opacity: 0.8;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.img-sub:hover,
+.img-sub:focus {
+  opacity: 0.5;
+}
