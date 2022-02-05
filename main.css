@@ -6,8 +6,6 @@
     display: none;
   }
 
-
-
   .ham {
     width: 9vw;
     max-width: 12vw;
@@ -96,7 +94,6 @@
 }
 
 @media only screen and (min-width: 768px) {
-
   .message-nav {
     background: #30333a;
     display: flex;
@@ -176,8 +173,8 @@
 }
 
 .partner-section {
-  background-color: #272A31;
-  opacity: .90;
+  background-color: #272a31;
+  opacity: 0.9;
   padding: 20px 0;
 }
 
@@ -192,7 +189,7 @@
 
 .partner-img {
   width: 70px;
-  height:fit-content;
+  height: fit-content;
   margin: 0 10px;
 }
 
@@ -275,7 +272,6 @@
   font-weight: 500;
   padding: 15px 0;
   margin-bottom: 15px;
-
 }
 
 .heading-3 {
@@ -520,17 +516,12 @@
     margin: 0 4vw;
     justify-content: space-between;
 
-      color: #272A31;
-  
+    color: #272a31;
   }
-
-
 
   .footer-logo {
     margin-right: 20px;
   }
-
-
 }
 
 @media only screen and (min-width: 768px) {
@@ -543,14 +534,13 @@
   }
 
   .footer-split {
-    color: #272A31;
-}
+    color: #272a31;
+  }
 }
 
 .footer {
   background: #ffffff;
   padding: 20px 13vw;
-
 }
 
 .footer-split {
@@ -595,13 +585,10 @@
   .display-none {
     display: none;
   }
-
-
 }
 
 @media only screen and (min-width: 768px) {
-
-.dt-display-none {
-  display: none;
-}
+  .dt-display-none {
+    display: none;
+  }
 }

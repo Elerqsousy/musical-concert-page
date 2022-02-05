@@ -42,16 +42,13 @@
     font-size: 4vw;
   }
 
-
-
   .box-border-dark {
     margin-bottom: 15px;
-
   }
-  
-.footer-split {
-    color: #272A31;
-}
+
+  .footer-split {
+    color: #272a31;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -74,31 +71,32 @@
 
   .email {
     margin-bottom: 40px;
-}
+  }
 
-.logo-section, .photos-section {
-    padding: 40px ;
-}
+  .logo-section,
+  .photos-section {
+    padding: 40px;
+  }
 
-.border-dark {
+  .border-dark {
     width: 300px;
-}
+  }
 
-.footer-dark {
-    background-color: #272A31;
-    opacity: .90;
-}
-.footer-split {
+  .footer-dark {
+    background-color: #272a31;
+    opacity: 0.9;
+  }
+  .footer-split {
     color: white;
-}
+  }
 
-.dt-display-none {
+  .dt-display-none {
     display: none;
-}
+  }
 
-.width-limited {
+  .width-limited {
     width: 500px;
-}
+  }
 }
 
 .box-border-dark {
@@ -167,4 +165,3 @@
 .img-sub:focus {
   opacity: 0.5;
 }
-
