@@ -21,7 +21,7 @@
     />
   </head>
   <body>
-    <header id="intro">
+    <header class="about-header" id="intro">
       <nav class="nav">
         <ul class="top-nav">
           <li class="message-nav">
@@ -36,7 +36,9 @@
             <a href="#" class="para-4 light-theme message-nav-item">Logout</a>
           </li>
           <li class="main-nav">
-            <img class="nav-desktop" src="src/imgs/logo-icon.png" alt="logo" />
+            <a href="./index.html"
+              ><img class="nav-desktop" src="src/imgs/logo-icon.png" alt="logo"
+            /></a>
             <button class="ham nav-mobile">
               <img class="menu-ham" src="src/imgs/ham.png" alt="menu" />
             </button>
@@ -50,17 +52,13 @@
                 </button>
               </li>
               <li class="nav-menu-item">
-                <a href="./index.html" class="para-4 dark-theme dt-display-none"
-                  >Home</a
-                >
+                <a href="./index.html" class="para-4 dark-theme">Home</a>
               </li>
               <li class="nav-menu-item">
                 <a href="#intro" class="para-4 dark-theme">About</a>
               </li>
               <li class="nav-menu-item">
-                <a href="./index.html#programs" class="para-4 dark-theme"
-                  >Program</a
-                >
+                <a href="./index.html#programs" class="para-4 dark-theme">Program</a>
               </li>
               <li class="nav-menu-item">
                 <a href="#" class="para-4 dark-theme">Join</a>
@@ -81,26 +79,45 @@
     </header>
     <main>
       <section class="section-about intro-section">
-        <p class="sub-heading main-theme trans">"Hello! Music lovers"</p>
-        <h1 class="heading-1 main-theme">
+        <p class="sub-heading-about main-theme dt-display-none">
+          "Hello! Music lovers"
+        </p>
+        <h1 class="heading-1 heading-1-about main-theme">
           the musical <br />
           event of the year 2022
         </h1>
         <div class="box-border">
-          <p class="box-border-dark para-2 dark-theme">
+          <p class="box-border-dark para-2 dark-theme dt-display-none">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Consequuntur ut, voluptate et velit neque sed, quaerat sit omnis
-            inventore veniam mollitia libero deleniti cumque. Lorem ipsum dolor
-            sit amet consectetur adipisicing elit. Corrupti aspernatur quidem
-            sequi doloremque. Natus amet maxime illo, similique quis obcaecati!
+            inventore veniam mollitia libero deleniti obcaecati!
+          </p>
+          <p class="box-border-dark para-2 dark-theme display-none">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Consequuntur ut, voluptate et velit neque sed, quaerat sit omnis
+            inventore veniam mollitia libero deleniti obcaecati! Lorem, ipsum
+            dolor sit amet consectetur adipisicing elit. Laudantium, corporis
+            tempora commodi dignissimos labore optio? Itaque totam hic harum
+            possimus! Voluptate omnis accusantium nemo perspiciatis repudiandae
+            assumenda obcaecati ab culpa tempore a, explicabo doloremque esse?
+            Perferendis commodi impedit numquam temporibus obcaecati ratione
+            quia non doloribus maxime iste voluptates consequatur exercitationem
+            deserunt veritatis voluptatibus corrupti atque vel magnam veniam
+            repellendus voluptatum nemo dolore, fugiat minus. Voluptas optio
+            quibusdam deleniti facilis nihil, mollitia ex similique dignissimos
+            illum, qui fuga eos sapiente quam expedita? Earum inventore vel
+            natus quaerat voluptatum, error nobis magnam sunt laborum distinctio
+            eaque architecto labore amet iure non voluptate.
           </p>
         </div>
-        <p class="para-3 dark-theme padding-bottom">
+        <p class="para-3 dark-theme">
           Please contact us per Email for any further questions about the
           MUSICAL Event 2022
         </p>
 
-        <a href="#">mahmoud.eleresousy@gmail.com</a>
+        <a class="para-2 dark-theme email" href="#"
+          >mahmoud.eleresousy@gmail.com</a
+        >
       </section>
       <section class="section-about logo-section">
         <h2 class="heading-2 dark-theme">The MUSICAL Event 2022 Logo</h2>
@@ -108,8 +125,13 @@
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
           ut, voluptate et velit neque sed.
         </p>
-        <buutton class="box-border-dark">
-          <img src="./src/imgs/complete-logo.png" alt="logo" />
+        <p class="para-2 dark-theme display-none width-limited">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi magni
+          vitae temporibus maxime rerum minima reiciendis porro expedita
+          doloribus ipsa!
+        </p>
+        <buutton class="border-dark">
+          <img class="logo-img" src="./src/imgs/complete-logo.png" alt="logo" />
         </buutton>
       </section>
       <section class="section-about photos-section">
@@ -119,13 +141,15 @@
           ut.
         </p>
         <ul class="img-group">
-          <li class="img">
+          <li class="img img-1">
             <ul class="img-sub">
               <li class="para-0 light-theme">2020</li>
               <li class="para-1 light-theme">
                 the MUSICAL event 2020 in Califoria
               </li>
             </ul>
+          </li>
+          <li class="img img-2">
             <ul class="img-sub">
               <li class="para-0 light-theme">2018</li>
               <li class="para-1 light-theme">
@@ -135,19 +159,39 @@
           </li>
         </ul>
       </section>
-      <section class="section-about partner-section">
+      <section class="section-about partner-section dt-display-none">
         <h2 class="heading-2 light-theme">Partner</h2>
-        <figure class="partner-group">
-          <img src="./src/imgs/mozilla-logo.png" alt="Mozilla Logo" class="partner-img">
-          <img src="./src/imgs/google-logo.jpg" alt="Google  Logo" class="partner-img">
-          <img src="./src/imgs/airbnb-logo.jpg" alt="Airbnb Logo" class="partner-img">
-          <img src="./src/imgs/hilton-logo-2.jpg" alt="Hilton Logo" class="partner-img">
-          <img src="./src/imgs/nike-logo.png" alt="Nike Logo" class="partner-img">
+        <figure class="partner-group-imgs">
+          <img
+            src="./src/imgs/mozilla-logo.png"
+            alt="Mozilla Logo"
+            class="partner-img"
+          />
+          <img
+            src="./src/imgs/google-logo.jpg"
+            alt="Google  Logo"
+            class="partner-img"
+          />
+          <img
+            src="./src/imgs/airbnb-logo.jpg"
+            alt="Airbnb Logo"
+            class="partner-img"
+          />
+          <img
+            src="./src/imgs/hilton-logo.jpg"
+            alt="Hilton Logo"
+            class="partner-img"
+          />
+          <img
+            src="./src/imgs/nike-logo.png"
+            alt="Nike Logo"
+            class="partner-img"
+          />
         </figure>
       </section>
     </main>
-    <footer class="footer">
-      <ul class="footer-split dark-theme">
+    <footer class="footer footer-dark">
+      <ul class="footer-split">
         <li class="footer-logo">
           <img src="src/imgs/logo-icon.png" alt="logo" />
         </li>
@@ -164,7 +208,6 @@
         </li>
       </ul>
     </footer>
-
-    <script src="./js/main.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
